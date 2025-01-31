@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #232a2f;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.devicon-css3-plain {
+  position: absolute;
+  right: 4.8rem;
+  top: 4rem;
+  rotate: -20deg;
+  font-size: 45px;
+  color: #ffffff0a;
+}
+.devicon-html5-plain {
+  position: absolute;
+  right: 1.5rem;
+  top: 5.5rem;
+  rotate: 20deg;
+  font-size: 50px;
+  color: #ffffff0a;
+}
+.devicon-javascript-plain {
+  position: absolute;
+  right: 1.9rem;
+  top: 1.7rem;
+  rotate: 0deg;
+  font-size: 45px;
+  color: #ffffff0a;
+}
+.github {
+  position: absolute;
+  font-family: "Rock Salt", serif;
+  rotate: -90deg;
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 5px;
+  left: -12.4rem;
+  top: 15.7rem;
+  color: #ffffff0a;
+}
+.container {
+  background-color:#232a2f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 400px;
+  box-shadow: 5px 5px 16px #1a1f23, -5px -5px 16px #2c3339;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.display {
+  text-align: right;
+  font-family: "Allerta Stencil", serif;
+  font-weight: 100;
+  padding-right: 13px;
+  padding-left: 13px;
+  font-size: 24px;
+  color: #ffffff50;
+  box-shadow: 2px 2px 10px #1a1f23 inset, -3px -3px 10px #2c3339 inset;
+  width: 220px;
+  height: 60px;
+  border: none;
+  margin-bottom:25px;
+  background-color: #232a2f;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.buttons {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 5px;
+}
+.buttons button {
+  cursor: pointer;
+  font-family: "Allerta Stencil", serif;
+  box-shadow: 3px 3px 10px #1a1f23, -3px -3px 10px #2c3339;
+  color: #ffffff50;
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #1a1f2328;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.buttons .operator {
+  color: #00c3ff49;
+}
+footer {
+  font-family: "Kanit", serif;
+  font-weight: 300;
+  font-size: 13px;
+  background-color: #1a1f235e;
+  color: #ffffff79;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+@media (max-width: 479px) {
+  .container {
+    width: 230px;
+    height: 330px;
+  }
+  .devicon-css3-plain {
+    display: none;
+  }
+  .devicon-html5-plain {
+    display: none;
+  }
+  .devicon-javascript-plain {
+    display: none;
+  }
+  .github {
+    display: none;
+  }
+  .display {
+    font-size: 20px;
+    width: 180px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  .buttons {
+    margin-top: 3px;
+  }
+  .buttons button {
+    font-size: 11px;
+    width: 30px;
+    height: 30px;
+  }
+  footer {
+    font-size: 11px;
+    font-weight: 200;
+  }
+}
+@media (min-width: 480px) and (max-width: 639px) { 
+  .container {
+    width: 230px;
+    height: 330px;
+  }
+  .devicon-css3-plain {
+    display: none;
+  }
+  .devicon-html5-plain {
+    display: none;
+  }
+  .devicon-javascript-plain {
+    display: none;
+  }
+  .github {
+    display: none;
+  }
+  .display {
+    font-size: 20px;
+    width: 180px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  .buttons {
+    margin-top: 3px;
+  }
+  .buttons button {
+    font-size: 11px;
+    width: 30px;
+    height: 30px;
+  }
+  footer {
+    font-size: 11px;
+    font-weight: 200;
+  }
+}
+@media (min-width: 640px) and (max-width: 1023px) {
+  .container {
+    width: 270px;
+    height: 393px;
+  }
+  .devicon-css3-plain {
+    font-size: 30px;
+    right: 3.6rem;
+    top: 3.2rem;
+  }
+  .devicon-html5-plain {
+    font-size: 33px;
+    right: 1.3rem;
+    top: 4.3rem;
+  }
+  .devicon-javascript-plain {
+    right: 1.6rem;
+    font-size: 30px;
+  }
+  .github {
+    display: none;
+  }
+  footer {
+    font-size: 12px;
+    font-weight: 300;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1279px) { 
+  .container {
+    width: 290px;
+    height: 410px;
+  }
+  .github {
+    display: none;
+  }
+  .display {
+    font-size: 22px;
+    width: 225px;
+    height: 70px;
+    margin-bottom: 25px;
+  }
+  .buttons {
+    margin-top: 3px;
+  }
+  .buttons button {
+    font-size: 13px;
+    width: 40px;
+    height: 40px;
+  }
+  footer {
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
